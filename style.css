@@ -1,0 +1,181 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Use custom font */
+    background-color: #f8f9fa; /* Set background color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem; /* Increase font size */
+    animation: fadeInDown 1s ease-in-out; /* Add animation */
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 50px 0;
+    animation: fadeIn 1s ease-in-out; /* Add animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px; /* Increase space below headings */
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    animation: fadeIn 1s ease-in-out; /* Add animation */
+}
+
+footer {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button[type="submit"] {
+    background-color: #4e54c8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #8f94fb;
+}
+
+.ppp {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+/* Light Theme Button */
+#theme-toggle {
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark color for text */
+    border: 2px solid #343a40; /* Dark border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 15px;
+}
+
+#theme-toggle:hover {
+    background-color: #343a40; /* Dark background color on hover */
+    color: #f8f9fa; /* Light text color on hover */
+}
+
+.project1 {
+  text-decoration: none;
+}
+
+.project2 {
+  text-decoration: none;
+}
