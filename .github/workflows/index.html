@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jigyanshu Thakur - Portfolio</title>
+  <link rel="stylesheet" href="style.css" id="theme-style">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Jigyanshu Thakur</h1>
+      <p class="pp">Developer & Student</p>
+      <button id="theme-toggle"><i class="fas fa-sun"></i></button>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="ppp">I am a passionate developer and student interested in HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Jig Tac Toe</h3>
+        <br>
+        <a href="https://jig-tac-toe.glitch.me" target="_blank" style="font-size: large;" class="project1">Click Here</a>
+      </div>
+      <div class="project">
+        <h3>Jig-GPT</h3>
+        <br>
+        <a href="https://jig-gpt.netlify.app" target="_blank" style="font-size: large;" class="project2">Click Here</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Jigyanshu Thakur</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
